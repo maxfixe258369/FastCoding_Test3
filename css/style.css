@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 21%;
+  padding: 3px 19.5%;
 }
 .header .top-bar .list {
   display: flex;
@@ -73,7 +73,7 @@ body {
   transform-origin: bottom left;
 }
 .header .top-bar .register .sign-in {
-  margin-right: 59px;
+  margin-right: 70px;
 }
 .header .top-bar .register .cart {
   padding: 10px 30px;
@@ -119,12 +119,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 6%;
+  padding: 30px 3% 45px;
 }
 .header .header-content .nav-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 7px;
+  padding-right: 7px;
 }
 .header .header-content .nav-header .menu {
   margin-right: 50px;
@@ -138,7 +140,7 @@ body {
   text-decoration: none;
   color: #222;
   font-size: 13px;
-  padding: 20px;
+  padding: 20px 30px;
   font-weight: bold;
 }
 .header .header-content .nav-header .menu .subnav:hover .subnav-content {
@@ -186,11 +188,13 @@ body {
 }
 .header .header-content .nav-header .search {
   position: relative;
+  text-align: right;
 }
 .header .header-content .nav-header .search input {
   padding: 2px 5px;
   border: 1px solid gainsboro;
   outline: none;
+  width: 85%;
 }
 .header .header-content .nav-header .search i {
   position: absolute;
@@ -203,7 +207,7 @@ body {
   background-image: url(../image/background_section_intro.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 140px 5%;
+  padding: 160px 5% 145px;
   text-align: center;
 }
 .section-intro .intro-title .title-content {
@@ -221,7 +225,7 @@ body {
 }
 
 .section-content {
-  padding: 60px 20%;
+  padding: 60px 18.5%;
 }
 .section-content .section-content-body {
   display: flex;
@@ -229,18 +233,21 @@ body {
 .section-content .section-content-body .content-body-column {
   margin: 0 10px;
 }
+.section-content .section-content-body .content-body-column .paragraph-text {
+  padding-left: 5px;
+}
 .section-content .section-content-body .content-body-column .paragraph-text .title-content {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 55px;
+  margin-bottom: 23px;
+  margin-top: 63px;
 }
-.section-content .section-content-body .content-body-column .paragraph-text .description {
+.section-content .section-content-body .content-body-column .paragraph-text > .description {
   font-size: 13px;
   text-transform: uppercase;
   color: #727272;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 .section-content .section-content-body .content-body-column .paragraph-text p {
   text-align: justify;
@@ -257,7 +264,6 @@ body {
 }
 .section-content .section-content-body .content-body-column img {
   width: 100%;
-  height: 370px;
 }
 .section-content .section-content-body .content-body-column .paragraph-second {
   margin-top: 64px;
@@ -265,23 +271,28 @@ body {
 .section-content .section-content-body .content-body-column .paragraph-second .paragraph-text .title-content {
   margin-top: 23px;
 }
+.section-content .section-content-body .content-body-column .paragraph-third {
+  margin-top: 58px;
+}
+.section-content .section-content-body .content-body-column .paragraph-third > img {
+  margin: 0 5px;
+}
 .section-content .section-content-body .content-body-column .paragraph-third .paragraph-text .title-content {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .section-content .section-content-body .content-body-column .award {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .section-content .section-content-body .content-body-column .award > img {
-  width: 144px;
-  height: 100px;
+  width: 100%;
 }
 
 .footer {
   background-color: #f8f8f8;
-  padding: 55px 21%;
+  padding: 84px 19% 57px;
 }
 .footer .footer-content {
   display: flex;
@@ -293,12 +304,12 @@ body {
 }
 .footer .footer-content ul li {
   list-style-type: none;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 .footer .footer-content ul li .title-content {
   font-size: 13px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .footer .footer-content ul li a {
   text-decoration: none;
@@ -316,7 +327,7 @@ body {
 .footer .footer-image {
   display: flex;
   align-items: center;
-  margin-top: 32px;
+  margin-top: 35px;
 }
 .footer .footer-image img {
   margin: 0 8px;
@@ -329,7 +340,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: #999;
-  padding: 10px 21%;
+  padding: 15px 21%;
   align-items: center;
   font-size: 13px;
 }

@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 21%;
+    padding: 3px 19.5%;
 
     .list {
       display: flex;
@@ -82,7 +82,7 @@ body {
       }
 
       .sign-in {
-        margin-right: 59px;
+        margin-right: 70px;
       }
 
       .cart {
@@ -137,12 +137,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 6%;
+    padding: 30px 3% 45px;
 
     .nav-header {
       display: flex;
       justify-content: space-around;
       align-items: center;
+      padding-top: 7px;
+      padding-right: 7px;
 
       .menu {
         margin-right: 50px;
@@ -156,7 +158,7 @@ body {
             text-decoration: none;
             color: #222;
             font-size: 13px;
-            padding: 20px;
+            padding: 20px 30px;
             font-weight: bold;
           }
 
@@ -223,11 +225,13 @@ body {
 
       .search {
         position: relative;
+        text-align: right;
 
         input {
           padding: 2px 5px;
           border: 1px solid gainsboro;
           outline: none;
+          width: 85%;
         }
 
         i {
@@ -245,7 +249,7 @@ body {
   background-image: url(../image/background_section_intro.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 140px 5%;
+  padding: 160px 5% 145px;
   text-align: center;
 
   .intro-title {
@@ -270,7 +274,7 @@ body {
 }
 
 .section-content {
-  padding: 60px 20%;
+  padding: 60px 18.5%;
 
   .section-content-body {
     display: flex;
@@ -279,19 +283,21 @@ body {
       margin: 0 10px;
 
       .paragraph-text {
+        padding-left: 5px;
+
         .title-content {
           font-size: 18px;
           font-weight: bold;
-          margin-bottom: 20px;
-          margin-top: 55px;
+          margin-bottom: 23px;
+          margin-top: 63px;
         }
 
-        .description {
+        > .description {
           font-size: 13px;
           text-transform: uppercase;
           color: #727272;
           font-weight: bold;
-          margin-bottom: 20px;
+          margin-bottom: 13px;
         }
 
         p {
@@ -313,7 +319,6 @@ body {
 
       img {
         width: 100%;
-        height: 370px;
       }
 
       .paragraph-second {
@@ -327,9 +332,15 @@ body {
       }
 
       .paragraph-third {
+        margin-top: 58px;
+
+        > img {
+          margin: 0 5px;
+        }
+
         .paragraph-text {
           .title-content {
-            margin-top: 10px;
+            margin-top: 20px;
           }
         }
       }
@@ -338,11 +349,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 30px;
+        margin-top: 50px;
 
         > img {
-          width: 144px;
-          height: 100px;
+          width: 100%;
         }
       }
     }
@@ -351,7 +361,7 @@ body {
 
 .footer {
   background-color: #f8f8f8;
-  padding: 55px 21%;
+  padding: 84px 19% 57px;
 
   .footer-content {
     display: flex;
@@ -363,12 +373,12 @@ body {
 
       li {
         list-style-type: none;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
 
         .title-content {
           font-size: 13px;
           font-weight: bold;
-          margin-bottom: 20px;
+          margin-bottom: 25px;
         }
 
         a {
@@ -393,7 +403,7 @@ body {
   .footer-image {
     display: flex;
     align-items: center;
-    margin-top: 32px;
+    margin-top: 35px;
 
     img {
       margin: 0 8px;
@@ -408,7 +418,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: #999;
-  padding: 10px 21%;
+  padding: 15px 21%;
   align-items: center;
   font-size: 13px;
 }
@@ -420,7 +430,6 @@ body {
 .nav-mobile {
   display: none;
 }
-
 
 //Responsive Tablet
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -565,8 +574,6 @@ body {
               }
             }
           }
-
-          
         }
 
         .search {
@@ -844,8 +851,6 @@ body {
               }
             }
           }
-
-          
         }
 
         .search {
