@@ -366,6 +366,7 @@ body {
   .footer-content {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     ul {
       padding: 0;
