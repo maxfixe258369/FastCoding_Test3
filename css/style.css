@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 19.5%;
+  padding: 3px 21.5%;
 }
 .header .top-bar .list {
   display: flex;
@@ -119,7 +119,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 3% 45px;
+  padding: 20px 6.5% 35px;
 }
 .header .header-content .nav-header {
   display: flex;
@@ -129,7 +129,7 @@ body {
   padding-right: 7px;
 }
 .header .header-content .nav-header .menu {
-  margin-right: 50px;
+  margin-right: 40px;
   display: flex;
 }
 .header .header-content .nav-header .menu .subnav {
@@ -198,8 +198,8 @@ body {
 }
 .header .header-content .nav-header .search i {
   position: absolute;
-  right: 10px;
-  top: 5px;
+  right: 5px;
+  top: 7px;
   color: #ababab;
 }
 
@@ -221,11 +221,11 @@ body {
 .section-intro .intro-content p {
   font-size: 30px;
   color: white;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .section-content {
-  padding: 60px 18.5%;
+  padding: 60px 21%;
 }
 .section-content .section-content-body {
   display: flex;
@@ -234,13 +234,13 @@ body {
   margin: 0 10px;
 }
 .section-content .section-content-body .content-body-column .paragraph-text {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .section-content .section-content-body .content-body-column .paragraph-text .title-content {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 23px;
-  margin-top: 63px;
+  margin-top: 60px;
 }
 .section-content .section-content-body .content-body-column .paragraph-text > .description {
   font-size: 13px;
@@ -268,8 +268,11 @@ body {
 .section-content .section-content-body .content-body-column .paragraph-second {
   margin-top: 64px;
 }
+.section-content .section-content-body .content-body-column .paragraph-second .paragraph-text {
+  padding: 0;
+}
 .section-content .section-content-body .content-body-column .paragraph-second .paragraph-text .title-content {
-  margin-top: 23px;
+  margin-top: 25px;
 }
 .section-content .section-content-body .content-body-column .paragraph-third {
   margin-top: 58px;
@@ -284,19 +287,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 .section-content .section-content-body .content-body-column .award > img {
-  width: 100%;
+  width: 33%;
 }
 
 .footer {
   background-color: #f8f8f8;
-  padding: 84px 19% 57px;
+  padding: 85px 21.5% 57px;
 }
 .footer .footer-content {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .footer .footer-content ul {
   padding: 0;
@@ -329,8 +333,10 @@ body {
   align-items: center;
   margin-top: 35px;
 }
+.footer .footer-image .award-image {
+  margin-right: 25px;
+}
 .footer .footer-image img {
-  margin: 0 8px;
   height: 100%;
   width: 50%;
 }
@@ -340,7 +346,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: #999;
-  padding: 15px 21%;
+  padding: 15px 21.5%;
   align-items: center;
   font-size: 13px;
 }
@@ -548,7 +554,6 @@ body {
   }
   .section-content-mobile .section-content-body img {
     width: 100%;
-    height: 370px;
   }
   .section-content-mobile .section-content-body .award {
     display: flex;
@@ -772,7 +777,6 @@ body {
   }
   .section-content-mobile .section-content-body img {
     width: 100%;
-    height: 370px;
   }
   .section-content-mobile .section-content-body .award {
     display: flex;
